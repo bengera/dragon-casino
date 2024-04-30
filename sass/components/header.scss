@@ -1,0 +1,28 @@
+@use "../abstracts" as *;
+
+.content-container {
+    display: flex;
+    
+}
+
+.hero-img {
+    width: 1200px;
+height: auto;
+}
+
+.left-content {
+    max-width: 700px;
+    margin-top: 170px;
+}
+
+.right-content {
+    align-content: center;
+    margin-top: 150px;
+margin-left: 50px;
+}
+
+
+.caption {
+    color: clr(neutral,500);
+    width: 540px;
+}

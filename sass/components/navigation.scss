@@ -2,13 +2,12 @@
 
 .navigation {
   
-
-
+  
   &__inner-content {
     display: flex;
   align-items: center;
   justify-content: flex-end;
-  padding: 2rem;
+  padding: 1rem 0;
   gap: 2rem;
   max-width: 60rem;
   justify-content: space-between;
