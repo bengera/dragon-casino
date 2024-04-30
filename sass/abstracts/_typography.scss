@@ -1,7 +1,8 @@
-$ff-sans: "Times New Roman", Times, serif;
+$ff-poppins: "Poppins", sans-serif;
 $ff-serif: "Lucida Console", "Courier New", monospace;
 
-$ff-base: $ff-sans;
+
+$ff-base: $ff-poppins;
 $ff-accent: $ff-serif;
 
 $font-sizes: (
@@ -13,5 +14,5 @@ $font-sizes: (
   300: 1rem,
 );
 
-$fw-400: 400;
+$fw-100: 100;
 $fw-700: 700;

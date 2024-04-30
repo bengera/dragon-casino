@@ -16,3 +16,6 @@
   --max-width: #{$container-max-width-wide};
 }
 
+.container[data-type="widest"] {
+  --max-width: #{$container-max-width-widest};
+}
