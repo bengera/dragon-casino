@@ -15,18 +15,13 @@
   color: clr(neutral, 100);
   
 
-  &[data-type="accent"] {
-    
-    font-size: 14px;
+  &[data-type="neutral"] {
+    background-color: clr(neutral, 100);
+    color:  clr(neutral, 200);
   }
 
-  &[data-type="large"] {
-    // --outline-size: 5px;
-    padding: 1em 2em;
-    // background: transparent;
-    // outline: var(--outline-size) solid clr(neutral, 100);
-    // outline-offset: calc(var(--outline-size) * -1);
-    // color: clr(neutral, 100);
+  &[data-type="light"] {
+    
   }
 
   &:is(:hover, :focus) {
