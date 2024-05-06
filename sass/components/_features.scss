@@ -1,0 +1,15 @@
+@use "../abstracts/" as *;
+
+.features {
+  display: flex;
+  flex-direction: column;
+  gap: 5rem;
+}
+
+h3 {
+  font-size: 2.8rem;
+}
+
+.f-para {
+  font-size: 1.25rem;
+}

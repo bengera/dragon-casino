@@ -3,6 +3,9 @@
 .even-columns {
   display: grid;
   gap: var(--grid-gap, $grid-gap);
+  align-items: center;
+  margin-top: 5rem;
+  
 
   @include mq(small) {
     grid-auto-flow: column;
