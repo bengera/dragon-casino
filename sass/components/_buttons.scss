@@ -4,7 +4,6 @@
   display: inline-flex;
   cursor: pointer;
   text-decoration: none;
-  // text-transform: uppercase;
   line-height: 1;
   font-weight: $fw-700;
   border: 0;
@@ -22,6 +21,10 @@
 
   &[data-type="light"] {
     
+  }
+
+  &[data-type="thick-padding"]{
+    padding: 1.1rem;
   }
 
   &:is(:hover, :focus) {
