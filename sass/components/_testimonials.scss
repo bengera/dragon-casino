@@ -1,31 +1,54 @@
 @use "../abstracts" as *;
 
-.testimonials {
-    
+.slider {
+    display: flex;
+}
 
-    &__content {
-        max-width: 50rem;
-        line-height: 28px;
-    }
+.testimonials {
+  &__content {
     
+    position: relative;
+    max-width: 50rem;
+    line-height: 28px;
+  }
 }
 
 .person-info {
-    // border: 1px solid black;
-    display: grid;
-    grid-template-columns: 90px 200px;
-    gap: 1rem;
-    padding: 1rem 0;
+  // border: 1px solid black;
+  display: grid;
+  grid-template-columns: 90px 200px;
+  gap: 1rem;
+  padding: 1rem 0;
 
-    &__name {
+  &__name {
+  }
 
-    }
+  &__location {
+    grid-column: 2/2;
+  }
 
-    &__location {
-        grid-column: 2/2;
-    }
+  &__text-content {
+    align-content: center;
+  }
+}
 
-    &__text-content {
-        align-content: center;
-    }
+.left-arrow,
+.right-arrow {
+  border-radius: 10px;
+  width: 45px;
+  height: 45px;
+  display: flex;
+  justify-content: center;
+  align-self: center;
+  position: absolute;
+}
+
+.left-arrow {
+  left: -95px;
+  top: 30%;
+}
+
+.right-arrow {
+  right: -95px;
+  top: 30%;
 }
